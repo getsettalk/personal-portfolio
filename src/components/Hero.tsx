@@ -5,6 +5,21 @@ import { Button } from "@/components/ui/button";
 export const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Floating Elements */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Floating Shapes */}
+        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-purple-400/30 rounded-full animate-float-slow"></div>
+        <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-pink-400/40 rounded-full animate-float-medium"></div>
+        <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-blue-400/35 rounded-full animate-float-fast"></div>
+        <div className="absolute top-1/2 right-1/4 w-2 h-2 bg-purple-300/30 rounded-full animate-float-slow"></div>
+        <div className="absolute bottom-1/3 right-1/2 w-4 h-4 bg-pink-300/25 rounded-full animate-float-medium"></div>
+        
+        {/* Code Symbols */}
+        <div className="absolute top-1/5 left-1/5 text-purple-400/20 text-2xl animate-float-slow">&lt;/&gt;</div>
+        <div className="absolute bottom-1/5 right-1/5 text-pink-400/20 text-xl animate-float-medium">{}</div>
+        <div className="absolute top-2/3 left-1/6 text-blue-400/20 text-lg animate-float-fast">( )</div>
+      </div>
+
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -12,27 +27,27 @@ export const Hero = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "2s" }}></div>
       </div>
 
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <div className="mb-6">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1 animate-scale-in">
-              <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-4xl font-bold text-white">
-                RN
+            <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1 animate-scale-in">
+              <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-2xl sm:text-4xl font-bold text-white">
+                SS
               </div>
             </div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
-            React Native
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
+            Sujeet Sharma
             <br />
-            <span className="text-4xl md:text-6xl">Developer</span>
+            <span className="text-2xl sm:text-4xl md:text-6xl">React Native Developer</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-white/80 mb-8 max-w-3xl mx-auto leading-relaxed px-4">
             Crafting beautiful, performant mobile applications that deliver exceptional user experiences across iOS and Android platforms.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 px-4">
             <Button size="lg" className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white border-0 transition-all duration-300 hover:scale-105">
               View My Work
             </Button>
@@ -43,14 +58,16 @@ export const Hero = () => {
           
           <div className="flex justify-center space-x-6 mb-12">
             {[
-              { icon: Github, href: "#", label: "GitHub" },
+              { icon: Github, href: "https://github.com/getsettalk", label: "GitHub" },
               { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "#", label: "Email" },
+              { icon: Mail, href: "mailto:sujeet@example.com", label: "Email" },
             ].map((social, index) => (
               <a
                 key={social.label}
                 href={social.href}
-                className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-white/20 transition-all duration-300 hover:scale-110"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-white/20 transition-all duration-300 hover:scale-110 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <social.icon size={20} />

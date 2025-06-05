@@ -26,10 +26,10 @@ export const Navigation = () => {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
       scrolled ? "bg-black/20 backdrop-blur-md border-b border-white/10" : ""
     }`}>
-      <div className="container mx-auto px-6 py-4">
+      <div className="container mx-auto px-4 sm:px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            Portfolio
+          <div className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Sujeet Sharma
           </div>
           
           {/* Desktop Menu */}

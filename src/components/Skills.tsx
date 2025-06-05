@@ -1,6 +1,7 @@
 
-import { FaReact, FaJs, FaLaravel, FaNodeJs, FaGitAlt, FaAndroid, FaApple } from "react-icons/fa";
-import { SiTypescript, SiRedux, SiFirebase, SiGraphql, SiMongodb, SiDocker, SiKubernetes, SiAmazonaws } from "react-icons/si";
+
+import { FaReact, FaJs, FaLaravel, FaNodeJs, FaGitAlt, FaAndroid, FaApple, FaAws } from "react-icons/fa";
+import { SiTypescript, SiRedux, SiFirebase, SiGraphql, SiMongodb, SiDocker, SiKubernetes } from "react-icons/si";
 
 export const Skills = () => {
   const skills = [
@@ -15,7 +16,7 @@ export const Skills = () => {
     { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
     { name: "Docker", icon: SiDocker, color: "text-cyan-400" },
     { name: "Git", icon: FaGitAlt, color: "text-orange-500" },
-    { name: "AWS", icon: SiAmazonaws, color: "text-yellow-500" },
+    { name: "AWS", icon: FaAws, color: "text-yellow-500" },
     { name: "iOS", icon: FaApple, color: "text-gray-300" },
     { name: "Android", icon: FaAndroid, color: "text-green-400" },
     { name: "Kubernetes", icon: SiKubernetes, color: "text-blue-500" },
@@ -51,3 +52,4 @@ export const Skills = () => {
     </section>
   );
 };
+

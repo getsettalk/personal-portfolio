@@ -1,5 +1,4 @@
 
-
 import { FaReact, FaJs, FaLaravel, FaNodeJs, FaGitAlt, FaAndroid, FaApple, FaAws } from "react-icons/fa";
 import { SiTypescript, SiRedux, SiFirebase, SiGraphql, SiMongodb, SiDocker, SiKubernetes } from "react-icons/si";
 
@@ -52,4 +51,3 @@ export const Skills = () => {
     </section>
   );
 };
-

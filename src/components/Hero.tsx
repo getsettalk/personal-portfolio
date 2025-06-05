@@ -51,8 +51,8 @@ export const Hero = () => {
           <div className="flex justify-center space-x-6 mb-12">
             {[
               { icon: Github, href: "https://github.com/getsettalk", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:sujeet@example.com", label: "Email" },
+              { icon: Linkedin, href: "https://in.linkedin.com/in/sujeet-kumar-sharma-b36609201", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:rajrock7254@gmail.com.com", label: "Email" },
             ].map((social, index) => (
               <a
                 key={social.label}
@@ -68,7 +68,7 @@ export const Hero = () => {
           </div>
         </div>
         
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ArrowDown className="text-white/60" size={24} />
         </div>
       </div>

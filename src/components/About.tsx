@@ -15,10 +15,10 @@ export const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <p className="text-lg text-white/80 leading-relaxed">
-              I'm a passionate React Native developer with over 4 years of experience building cross-platform mobile applications. I specialize in creating seamless, intuitive user experiences that work flawlessly on both iOS and Android.
+              I'm a passionate React Native developer with over 1.6 years of experience building cross-platform mobile applications. I specialize in creating seamless, intuitive user experiences that work flawlessly on both iOS and Android.
             </p>
             <p className="text-lg text-white/80 leading-relaxed">
-              My expertise spans from complex state management with Redux to implementing smooth animations and integrating native modules. I'm always exploring the latest technologies and best practices to deliver cutting-edge mobile solutions.
+              My expertise spans from complex state management with Zustand to implementing smooth animations and integrating native modules. I'm always exploring the latest technologies and best practices to deliver cutting-edge mobile solutions.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               {["JavaScript", "TypeScript", "React Native", "Redux", "Firebase", "GraphQL"].map((tech, index) => (

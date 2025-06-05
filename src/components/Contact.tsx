@@ -26,7 +26,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-white">Email</h3>
-                <p className="text-white/70">hello@reactnativedev.com</p>
+                <p className="text-white/70">rajrock7254@gmail.com</p>
               </div>
             </div>
 
@@ -36,7 +36,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-white">Phone</h3>
-                <p className="text-white/70">+1 (555) 123-4567</p>
+                <p className="text-white/70">+91 N/A</p>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-white">Location</h3>
-                <p className="text-white/70">San Francisco, CA</p>
+                <p className="text-white/70">Darbhanga, Bihar, India</p>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export const Contact = () => {
 
       <footer className="mt-20 pt-8 border-t border-white/10 text-center">
         <p className="text-white/60">
-          © 2024 React Native Developer. Built with passion and React.
+          &copy; {new Date().getFullYear()} React Native Dev. All rights reserved.
         </p>
       </footer>
     </section>

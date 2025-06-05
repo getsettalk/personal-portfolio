@@ -29,14 +29,6 @@ export const Hero = () => {
 
       <div className="container mx-auto px-4 sm:px-6 text-center relative z-10">
         <div className="animate-fade-in">
-          <div className="mb-6">
-            <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1 animate-scale-in">
-              <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-2xl sm:text-4xl font-bold text-white">
-                SS
-              </div>
-            </div>
-          </div>
-          
           <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
             Sujeet Sharma
             <br />

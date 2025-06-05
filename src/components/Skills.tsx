@@ -1,29 +1,37 @@
 
-import { Smartphone, Code, Database, Cloud, Zap, Globe, Cpu, GitBranch } from "lucide-react";
+import { FaReact, FaJs, FaLaravel, FaNodeJs, FaGitAlt, FaAndroid, FaApple } from "react-icons/fa";
+import { SiTypescript, SiRedux, SiFirebase, SiGraphql, SiMongodb, SiDocker, SiKubernetes, SiAws } from "react-icons/si";
 
 export const Skills = () => {
   const skills = [
-    { name: "React Native", icon: Smartphone, color: "text-blue-400" },
-    { name: "JavaScript/TypeScript", icon: Code, color: "text-yellow-400" },
-    { name: "Redux/Context API", icon: Zap, color: "text-purple-400" },
-    { name: "Firebase", icon: Database, color: "text-orange-400" },
-    { name: "REST APIs", icon: Globe, color: "text-green-400" },
-    { name: "GraphQL", icon: Database, color: "text-pink-400" },
-    { name: "Native Modules", icon: Cpu, color: "text-cyan-400" },
-    { name: "CI/CD", icon: GitBranch, color: "text-red-400" },
+    { name: "React Native", icon: FaReact, color: "text-blue-400" },
+    { name: "JavaScript", icon: FaJs, color: "text-yellow-400" },
+    { name: "TypeScript", icon: SiTypescript, color: "text-blue-500" },
+    { name: "Redux", icon: SiRedux, color: "text-purple-400" },
+    { name: "Laravel", icon: FaLaravel, color: "text-red-400" },
+    { name: "Node.js", icon: FaNodeJs, color: "text-green-400" },
+    { name: "Firebase", icon: SiFirebase, color: "text-orange-400" },
+    { name: "GraphQL", icon: SiGraphql, color: "text-pink-400" },
+    { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
+    { name: "Docker", icon: SiDocker, color: "text-cyan-400" },
+    { name: "Git", icon: FaGitAlt, color: "text-orange-500" },
+    { name: "AWS", icon: SiAws, color: "text-yellow-500" },
+    { name: "iOS", icon: FaApple, color: "text-gray-300" },
+    { name: "Android", icon: FaAndroid, color: "text-green-400" },
+    { name: "Kubernetes", icon: SiKubernetes, color: "text-blue-500" },
   ];
 
   return (
-    <section id="skills" className="py-20 relative">
+    <section id="skills" className="py-20 relative bg-gradient-to-b from-slate-900 to-navy-900">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            Skills & Expertise
+            Skills & Technologies
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
           {skills.map((skill, index) => (
             <div
               key={skill.name}
@@ -34,12 +42,7 @@ export const Skills = () => {
                 <div className={`mb-4 p-3 rounded-full bg-white/10 ${skill.color} transition-all duration-300 group-hover:scale-110`}>
                   <skill.icon size={32} />
                 </div>
-                <h3 className="text-lg font-semibold text-white mb-2">{skill.name}</h3>
-                <div className="w-full h-1 bg-white/20 rounded-full overflow-hidden">
-                  <div className={`h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-1000 ease-out group-hover:w-full`}
-                       style={{ width: '85%', animation: `slideInRight 1s ease-out ${index * 0.1}s both` }}>
-                  </div>
-                </div>
+                <h3 className="text-sm sm:text-base font-semibold text-white text-center">{skill.name}</h3>
               </div>
             </div>
           ))}

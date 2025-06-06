@@ -1,5 +1,5 @@
 
-import { FaReact, FaJs, FaLaravel, FaNodeJs, FaGitAlt, FaAndroid, FaApple, FaAws , FaAppStore} from "react-icons/fa";
+import { FaReact, FaJs, FaLaravel, FaNodeJs, FaGitAlt, FaAndroid, FaApple, FaAws , FaAppStore, FaNpm} from "react-icons/fa";
 import { SiTypescript, SiRedux, SiFirebase, SiGraphql, SiMongodb, SiDocker, SiKubernetes, SiPhp , SiMysql} from "react-icons/si";
 import { MdImageNotSupported } from "react-icons/md";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
@@ -23,6 +23,7 @@ export const Skills = () => {
     { name: "Php", icon: SiPhp, color: "text-blue-500" },
     { name: "App Store", icon: FaAppStore, color: "text-gray-300" },
     { name: "Google Play Store", icon: IoLogoGooglePlaystore, color: "text-green-500" },
+    { name: "npm", icon: FaNpm, color: "text-red-500" },
   ];
 
   return (

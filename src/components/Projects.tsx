@@ -5,28 +5,37 @@ import { Button } from "@/components/ui/button";
 export const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Mobile App",
-      description: "A full-featured e-commerce application with payment integration, real-time notifications, and seamless user experience.",
-      tech: ["React Native", "Redux", "Firebase", "Stripe"],
-      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop",
+      title: "SoExpensive Mobile App",
+      description: "A full-featured mobile application for SoExpensive, enabling users to track expenses, manage budgets, and analyze spending patterns.",
+      tech: ["React Native", "Zustand", "Laravel", "MySQL"],
+      image: "https://play-lh.googleusercontent.com/m8HfCYbAVd5lHy1suSOJ-Gcc6pVc0PjiW7-Taunx6OZVrCA8p1L0Y_fjxfBH5KZ9xw=w832-h470-rw",
       github: "#",
-      demo: "#"
+      demo: "https://play.google.com/store/apps/details?id=com.soexpensiveapp&hl=en_IN"
     },
     {
-      title: "Social Media Platform",
-      description: "Cross-platform social media app with real-time messaging, media sharing, and advanced user interactions.",
-      tech: ["React Native", "GraphQL", "AWS", "Socket.io"],
-      image: "https://images.unsplash.com/photo-1611262588024-d12430b98920?w=400&h=300&fit=crop",
+      title: "Trip Planner : Plan your trip",
+      description: "A comprehensive trip planning app that allows users to create itineraries, track their progress, and share travel experiences with friends.",
+      tech: ["React Native", "Firebase", "Sqlite"],
+      image: "https://play-lh.googleusercontent.com/fNANR4XwtA-no2CXnmaZyinaK4cF9bimgc-3xtkbf8BcmetcAcXWHSO_yeR8PkOg2A=w832-h470-rw",
       github: "#",
-      demo: "#"
+      demo: "https://play.google.com/store/apps/details?id=com.sujeet.tripplanner&hl=en_IN"
     },
     {
-      title: "Fitness Tracking App",
-      description: "Health and fitness application with workout tracking, progress analytics, and social features.",
-      tech: ["React Native", "HealthKit", "Charts", "Firebase"],
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+      title: "One Salary - Manage Attendance",
+      description: "A mobile application designed to help users manage their attendance, track work hours, and calculate salaries based on attendance data.",
+      tech: ["React Native", "Zustand", "Laravel", "FCM"],
+      image: "https://play-lh.googleusercontent.com/WfM4-VU1ZHDQh9UN_mTmEhjLCmc7-_TaP8L3mIPb78vo4oN_bFF0u6Ycj92cg9NF-no=w832-h470-rw",
       github: "#",
-      demo: "#"
+      demo: "https://play.google.com/store/apps/details?id=com.onesalary&hl=en_IN"
+    },
+    {
+      title: "RN Gradient Generator",
+      description: "A React-based gradient generator tool that enables users to create, customize, and export linear gradients for web development with enhanced UI/UX features.",
+      tech: ["Next.js", "Tailwind CSS", "TypeScript"],
+      // image: "https://github.com/user-attachments/assets/e09eff1d-d4cf-4710-bdb0-7e6661265d5b",
+      image: "https://github-production-user-asset-6210df.s3.amazonaws.com/49394996/452167273-e09eff1d-d4cf-4710-bdb0-7e6661265d5b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250606T052014Z&X-Amz-Expires=300&X-Amz-Signature=58f57aaee5b6c0a31034903a1135e2e0295fc658d3624cc8cc3fbfbab231cd83&X-Amz-SignedHeaders=host",
+      github: "#",
+      demo: "https://rn-gradient.vercel.app/"
     }
   ];
 
@@ -78,7 +87,7 @@ export const Projects = () => {
                   </Button>
                   <Button size="sm" className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600">
                     <ExternalLink size={16} className="mr-2" />
-                    Demo
+                    Visit
                   </Button>
                 </div>
               </div>

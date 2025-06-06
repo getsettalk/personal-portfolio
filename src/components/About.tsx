@@ -21,7 +21,7 @@ export const About = () => {
               My expertise spans from complex state management with Zustand to implementing smooth animations and integrating native modules. I'm always exploring the latest technologies and best practices to deliver cutting-edge mobile solutions.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              {["JavaScript", "TypeScript", "React Native", "Redux", "Firebase", "GraphQL"].map((tech, index) => (
+              {["JavaScript", "TypeScript", "React Native", "Redux", "Firebase", "Zustand"].map((tech, index) => (
                 <span
                   key={tech}
                   className="px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-white/90 border border-white/20 hover:scale-105 transition-transform duration-300"

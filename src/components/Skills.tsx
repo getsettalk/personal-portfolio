@@ -1,7 +1,8 @@
 
-import { FaReact, FaJs, FaLaravel, FaNodeJs, FaGitAlt, FaAndroid, FaApple, FaAws } from "react-icons/fa";
-import { SiTypescript, SiRedux, SiFirebase, SiGraphql, SiMongodb, SiDocker, SiKubernetes, SiPhp } from "react-icons/si";
+import { FaReact, FaJs, FaLaravel, FaNodeJs, FaGitAlt, FaAndroid, FaApple, FaAws , FaAppStore} from "react-icons/fa";
+import { SiTypescript, SiRedux, SiFirebase, SiGraphql, SiMongodb, SiDocker, SiKubernetes, SiPhp , SiMysql} from "react-icons/si";
 import { MdImageNotSupported } from "react-icons/md";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 
 export const Skills = () => {
   const skills = [
@@ -12,7 +13,7 @@ export const Skills = () => {
     { name: "Laravel", icon: FaLaravel, color: "text-red-400" },
     { name: "Node.js", icon: FaNodeJs, color: "text-green-400" },
     { name: "Firebase", icon: SiFirebase, color: "text-orange-400" },
-    { name: "GraphQL", icon: SiGraphql, color: "text-pink-400" },
+    { name: "MySQL", icon: SiMysql, color: "text-pink-400" },
     { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
     { name: "Docker", icon: SiDocker, color: "text-cyan-400" },
     { name: "Git", icon: FaGitAlt, color: "text-orange-500" },
@@ -20,6 +21,8 @@ export const Skills = () => {
     { name: "iOS", icon: FaApple, color: "text-gray-300" },
     { name: "Android", icon: FaAndroid, color: "text-green-400" },
     { name: "Php", icon: SiPhp, color: "text-blue-500" },
+    { name: "App Store", icon: FaAppStore, color: "text-gray-300" },
+    { name: "Google Play Store", icon: IoLogoGooglePlaystore, color: "text-green-500" },
   ];
 
   return (

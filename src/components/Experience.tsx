@@ -4,26 +4,26 @@ import { FaBriefcase, FaCalendarAlt } from "react-icons/fa";
 export const Experience = () => {
   const experiences = [
     {
-      title: "Senior React Native Developer",
-      company: "Tech Solutions Inc.",
-      duration: "2022 - Present",
-      description: "Leading development of cross-platform mobile applications, implementing complex features and mentoring junior developers.",
-      achievements: ["Led team of 5 developers", "Improved app performance by 40%", "Implemented CI/CD pipeline"]
-    },
-    {
       title: "React Native Developer",
-      company: "Mobile Innovations",
-      duration: "2020 - 2022",
-      description: "Developed and maintained multiple mobile applications using React Native, Redux, and Firebase.",
-      achievements: ["Built 8 successful apps", "Integrated payment systems", "Optimized app store rankings"]
+      company: "Victorious Infotech pvt. ltd.",
+      duration: "2023 - Present",
+      description: "Leading development of cross-platform mobile applications, implementing complex features and mentoring junior developers.",
+      achievements: ["Built 4 successful apps","Optimized app store rankings","Implemented new features","Collaborated with cross-functional teams" ,"Improved app performance by 40%", "Implemented CI/CD pipeline"]
     },
-    {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      duration: "2019 - 2020",
-      description: "Worked on web and mobile development using Laravel, React, and React Native technologies.",
-      achievements: ["Developed REST APIs", "Built responsive web apps", "Reduced load times by 60%"]
-    }
+    // {
+    //   title: "React Native Developer",
+    //   company: "Mobile Innovations",
+    //   duration: "2020 - 2022",
+    //   description: "Developed and maintained multiple mobile applications using React Native, Redux, and Firebase.",
+    //   achievements: ["Built 8 successful apps", "Integrated payment systems", "Optimized app store rankings"]
+    // },
+    // {
+    //   title: "Full Stack Developer",
+    //   company: "StartupXYZ",
+    //   duration: "2019 - 2020",
+    //   description: "Worked on web and mobile development using Laravel, React, and React Native technologies.",
+    //   achievements: ["Developed REST APIs", "Built responsive web apps", "Reduced load times by 60%"]
+    // }
   ];
 
   return (
